@@ -8,9 +8,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="Gustavo-Portifolio" element={<Home />} />
-      <Route path='Gustavo-Portifolio/Projetos' element={<Projetos />} />
-      <Route path='Gustavo-Portifolio/Contato' element={<Contato />} />
+      <Route path="/Gustavo-Portifolio" element={<Home />} />
+      <Route path='/Gustavo-Portifolio/Projetos' element={<Projetos />} />
+      <Route path='/Gustavo-Portifolio/Contato' element={<Contato />} />
       <Route path="*" element={<h1>Not Found</h1>} />
     </Routes>
   )

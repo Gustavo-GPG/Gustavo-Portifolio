@@ -5,9 +5,9 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav">
-        <NavLink to={'Gustavo-Portifolio'}>Home</NavLink>
-        <NavLink to={'Gustavo-Portifolio/Projetos'}>Projetos</NavLink>
-        <NavLink to={'Gustavo-Portifolio/Contato'}>Contato</NavLink>
+        <NavLink to={'/Gustavo-Portifolio'}>Home</NavLink>
+        <NavLink to={'/Gustavo-Portifolio/Projetos'}>Projetos</NavLink>
+        <NavLink to={'/Gustavo-Portifolio/Contato'}>Contato</NavLink>
       </nav>
     </header>
   );
