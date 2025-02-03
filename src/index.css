@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  /* Dark theme colors */
+  --primary: #1a1a1a;
+  --secondary: #2d2d2d;
+  --text: #e5e5e5;
+  --text-secondary: #a3a3a3;
+  --accent: #6366f1;
+}
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--text);
+  font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+  transition: color 0.3s;
+}
+
+a, button {
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+a:hover, button:hover {
+  color: var(--accent);
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
