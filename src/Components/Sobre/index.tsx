@@ -1,5 +1,5 @@
 import './Sobre.css';
-import reactLogo from '../../assets/react.svg';
+import imagemTemp from '../../assets/gatofotoprov.jpg.webp';
 
 function Sobre() {
     return (
@@ -20,7 +20,7 @@ function Sobre() {
                     Agora, estou em busca da minha primeira oportunidade como desenvolvedor.
                 </p>
                 <div className="image-container">
-                    <img className='image-sobre' src={reactLogo} alt="react" />
+                    <img className='image-sobre' src={imagemTemp} alt="react" />
                 </div>
             </div>
         </div>

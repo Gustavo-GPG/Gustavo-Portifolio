@@ -1,4 +1,4 @@
-import ractlogo from "../../assets/react.svg";
+import logo from "../../assets/gatofotoprov.jpg.webp";
 import "./Contato.css"
 
 function Contact() {
@@ -7,7 +7,7 @@ function Contact() {
           <div className="contato-container">
             {/* Foto à esquerda */}
             <div className="contato-img">
-              <img src={ractlogo} alt="Foto de perfil" />
+              <img src={logo} alt="Foto de perfil" />
             </div>
     
             {/* Bloco de contato à direita */}

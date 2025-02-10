@@ -1,8 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import Projeto1 from "../../assets/Capa ProjetoAPPReceitas.png";
 import Projeto2 from "../../assets/Capa ProjetoTFC.png";
-import foto3 from "../../assets/caroca3.jpeg";
-import foto4 from "../../assets/caroca4.jpeg";
+import Projeto3 from "../../assets/Capa ProjetoAgrix.png";
 import './ProjetosLista.css';
 
 const ProjetosLista = () => {
@@ -20,18 +19,11 @@ const ProjetosLista = () => {
       linkSite: 'https://github.com/exemplo/repo2',
     },
     {
-      imagem: foto3,
+      imagem: Projeto3,
       descricao: 'Aenean ut eros et nisl sagittis vestibulum. Integer ante arcu.',
-      linkGithub: 'https://github.com/exemplo/repo3',
-      linkSite: 'https://meuprojeto3.com',
+      linkGithub: 'https://github.com/Gustavo-GPG/Agrix',
+      linkSite: 'https://github.com/exemplo/repo2',
     },
-    {
-        imagem: foto4,
-        descricao: 'Aenean ut eros et nisl sagittis vestibulum. Integer ante arcu.',
-        linkGithub: 'https://github.com/exemplo/repo4',
-        linkSite: 'https://meuprojeto4.com',
-      },
-    
   ];
 
   return (
