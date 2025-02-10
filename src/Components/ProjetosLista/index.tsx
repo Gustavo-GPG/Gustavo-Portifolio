@@ -1,6 +1,6 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import Projeto1 from "../../assets/Capa ProjetoAPPReceitas.png";
-import foto2 from "../../assets/caroca2.jpg";
+import Projeto2 from "../../assets/Capa ProjetoTFC.png";
 import foto3 from "../../assets/caroca3.jpeg";
 import foto4 from "../../assets/caroca4.jpeg";
 import './ProjetosLista.css';
@@ -14,10 +14,10 @@ const ProjetosLista = () => {
       linkSite: 'https://gustavo-gpg.github.io/AppReceitasDeploy/',
     },
     {
-      imagem: foto2,
+      imagem: Projeto2,
       descricao: 'Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.',
-      linkGithub: 'https://github.com/exemplo/repo2',
-      linkSite: 'https://gustavo-gpg.github.io/AppReceitasDeploy/',
+      linkGithub: 'https://github.com/Gustavo-GPG/FutebolClube',
+      linkSite: 'https://github.com/exemplo/repo2',
     },
     {
       imagem: foto3,

@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./Pojetos.css"; // Importando o CSS
 import projeto1 from "../../assets/Capa ProjetoAPPReceitas.png";
-import foto2 from "../../assets/caroca2.jpg";
+import projeto2 from "../../assets/Capa ProjetoTFC.png";
 import foto3 from "../../assets/caroca3.jpeg";
 import foto4 from "../../assets/caroca4.jpeg";
 
 function ProjetosCarrosel() {
   const images = [
     projeto1,
-    foto2,
+    projeto2,
     foto3,
     foto4,
   ];
