@@ -20,14 +20,12 @@ function ProjetosLista() {
       imagem: Projeto2,
       descricao: 'Projeto de back-end com sequelize para alimentar um site de partidas de futebol',
       linkGithub: 'https://github.com/Gustavo-GPG/FutebolClube',
-      linkSite: 'https://github.com/exemplo/repo2',
     },
     {
       id: 3,
       imagem: Projeto3,
       descricao: 'Sistema de gerenciamento de fazendas e plantações com Spring Boot',
       linkGithub: 'https://github.com/Gustavo-GPG/Agrix',
-      linkSite: 'https://github.com/exemplo/repo2',
     },
   ];
 
@@ -57,10 +55,12 @@ function ProjetosLista() {
                         <FaGithub size={20} />
                         Repositório
                     </a>
-                    <a href={projeto.linkSite} target="_blank" rel="noopener noreferrer">
+                    {projeto.linkSite && (
+                      <a href={projeto.linkSite} target="_blank" rel="noopener noreferrer">
                         <FaExternalLinkAlt size={20} />
                         Site
-                    </a>
+                      </a>
+                    )}
                     </div>
                 </div>
                 </div>
