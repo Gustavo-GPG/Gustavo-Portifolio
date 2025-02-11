@@ -5,12 +5,10 @@ function Contact() {
     return (
         <section className="contato">
           <div className="contato-container">
-            {/* Foto à esquerda */}
             <div className="contato-img">
               <img src={logo} alt="Foto de perfil" />
             </div>
     
-            {/* Bloco de contato à direita */}
             <div className="contato-info">
               <h2>Entre em Contato</h2>
               <p>Se quiser saber mais sobre meu trabalho ou colaborar em projetos, sinta-se à vontade para entrar em contato!</p>
@@ -23,12 +21,10 @@ function Contact() {
             </div>
           </div>
     
-          {/* Texto abaixo */}
           <p className="contato-texto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget turpis sapien. 
-            Vivamus eget sapien ac odio ultricies fermentum. Sed sit amet tortor et risus commodo 
-            suscipit ac vel elit. Morbi tincidunt, justo in congue ultrices, libero dui lacinia justo, 
-            ac aliquet orci lorem eget arcu.
+            Tenho experiência em desenvolvimento web e backend, trabalhando com tecnologias como Java, Spring Boot, JavaScript, TypeScript e React. 
+            Além disso, possuo conhecimentos em arquitetura de software, microserviços, API Gateway e mensageria. 
+            Também sou familiarizado com banco de dados MySQL e Docker. Estou sempre disposto a aprender e a me adaptar a novas tecnologias e desafios.
           </p>
         </section>
       );
