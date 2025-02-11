@@ -33,7 +33,7 @@
   border-radius: 0.5rem;
 }
 
-.carousel-image {
+.carousel-image-active {
   position: absolute;
   top: 0;
   left: 0;
@@ -41,10 +41,10 @@
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.carousel-image.active {
+.carousel-image-active {
   opacity: 1;
 }
 
