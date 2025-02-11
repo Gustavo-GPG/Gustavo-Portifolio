@@ -30,7 +30,6 @@ function Detalhes() {
           imagem: Projeto2,
           descricao: descricaoTFC,
           linkGithub: 'https://github.com/Gustavo-GPG/FutebolClube',
-          linkSite: 'https://github.com/exemplo/repo2',
         },
         {
           id: 3,
@@ -38,7 +37,6 @@ function Detalhes() {
           imagem: Projeto3,
           descricao: descricaoAgrix,
           linkGithub: 'https://github.com/Gustavo-GPG/Agrix',
-          linkSite: 'https://github.com/exemplo/repo2',
         },
       ];
 
@@ -61,10 +59,12 @@ function Detalhes() {
                     <FaGithub size={20} />
                     Visite o repositório
                 </a>
-                <a href={projeto.linkSite} target="_blank" rel="noopener noreferrer">
+                {projeto.linkSite && (
+                  <a href={projeto.linkSite} target="_blank" rel="noopener noreferrer">
                     <FaExternalLinkAlt size={20} />
                     Acesse o site
-                </a>
+                  </a>
+                )}
             </div>
         </div>
     </div>
