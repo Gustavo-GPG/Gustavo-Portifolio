@@ -1,5 +1,5 @@
 import './Sobre.css';
-import imagemTemp from '../../assets/gatofotoprov.jpg.webp';
+import imagemTemp from '../../assets/fotoPessoal.jpeg';
 
 function Sobre() {
     return (

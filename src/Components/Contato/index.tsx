@@ -1,4 +1,4 @@
-import logo from "../../assets/gatofotoprov.jpg.webp";
+import logo from "../../assets/fotoPessoal.jpeg";
 import "./Contato.css"
 
 function Contact() {

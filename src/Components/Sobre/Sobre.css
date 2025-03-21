@@ -17,7 +17,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
-  align-items: stretch; /* This ensures both columns stretch to match heights */
+  align-items: stretch;
 }
 
 .sobre {
@@ -30,7 +30,7 @@
   font-size: 1.1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
-  height: 100%; /* Ensures the text container takes full height */
+  height: 100%;
 }
 
 .image-container {
@@ -43,19 +43,13 @@
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
-  height: 100%; /* Ensures the image container takes full height */
+  height: 100%;
 }
 
 .image-sobre {
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  animation: spin-slow 20s linear infinite;
-  transition: transform 0.3s ease;
-}
-
-.image-sobre:hover {
-  transform: scale(1.05);
 }
 
 @keyframes spin-slow {
