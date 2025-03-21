@@ -25,8 +25,8 @@ Atualmente, este é um projeto pessoal, mas estou aberto a sugestões e feedback
 
 Se quiser trocar uma ideia ou tiver alguma sugestão, pode me encontrar em:
 
-- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil)
-- **E-mail:** [gustavogpg23@gmail.com]
+- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/gustavogpg)
+- **E-mail:** gustavogpg23@gmail.com
 
 Obrigado por visitar! 💚
 
